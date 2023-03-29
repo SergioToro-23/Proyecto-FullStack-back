@@ -1,0 +1,11 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES ('Andrés', 'toro','serfio@hotmail.com','2005-01-01');
