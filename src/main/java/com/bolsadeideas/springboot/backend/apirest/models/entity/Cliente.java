@@ -23,8 +23,10 @@ public class Cliente implements Serializable {// clase entity, de persistencia, 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
+	@Column(nullable=false)
 	private String nombre;
 	private String apellido;
+	@Column(nullable=false, unique=true)
 	private String email;
 	
 	@Column(name="create_at")
