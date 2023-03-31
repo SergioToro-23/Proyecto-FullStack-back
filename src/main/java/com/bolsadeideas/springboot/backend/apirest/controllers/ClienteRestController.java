@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
@@ -87,7 +86,7 @@ public class ClienteRestController {
 	
 	
 	@PutMapping("/clientes/{id}")	
-	public ResponseEntity<?> update(@Valid @RequestBody  Cliente cliente, @PathVariable Long id) {//cliente esta dentro del cuerpo del request(Requesbody), ademas el id(pathvariable)
+	public ResponseEntity<?> update(@RequestBody Cliente cliente, @PathVariable Long id) {//cliente esta dentro del cuerpo del request(Requesbody), ademas el id(pathvariable)
 		
 		Cliente clienteUpdated = null;
 		Cliente clienteActual = clienteService.findById(id);//obtener el cliente de la base de datos por su id

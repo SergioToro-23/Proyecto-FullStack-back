@@ -2,9 +2,6 @@ package com.bolsadeideas.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
-
-import javax.validation.constraints.NotNull;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,15 +23,13 @@ public class Cliente implements Serializable {// clase entity, de persistencia, 
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	
-	//@Column(nullable=false)
-	@NotNull(message = "El nombre no puede ser nulo")
-	private String nombre;
-	@NotNull(message = "El apellido no puede ser nulo")//con la dependencia en el pom.xml de javax.validation.constraints.NotNull
-	private String apellido;
-	@Column(nullable=false, unique=true)
-	@NotNull(message = "El email no puede ser nulo")
-	private String email;
 	
+	@Column(nullable=false)	
+	private String nombre;
+	@Column(nullable=false)	
+	private String apellido;	
+	@Column(nullable=false, unique=true)
+	private String email;	
 	@Column(name="create_at")
 	@Temporal(TemporalType.DATE)
 	private Date createAt;
